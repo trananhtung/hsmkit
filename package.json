@@ -1,5 +1,5 @@
 {
-  "name": "hsmkit",
+  "name": "@billdaddy/hsmkit",
   "version": "0.1.0",
   "description": "Zero-dependency TypeScript hierarchical state machine (statecharts): compound states, entry/exit actions, guards, shallow history, internal transitions. Like Python pytransitions / C# Stateless / Ruby AASM.",
   "type": "module",

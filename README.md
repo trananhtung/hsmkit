@@ -4,19 +4,19 @@
 
 > Zero-dependency TypeScript hierarchical state machine (HSM/statecharts). Compound states, entry/exit actions, guards, shallow history, internal transitions. Port of Python `pytransitions` / C# `Stateless` / Ruby `AASM` — lighter than XState.
 
-[![npm](https://img.shields.io/npm/v/hsmkit)](https://www.npmjs.com/package/hsmkit)
+[![npm](https://img.shields.io/npm/v/@billdaddy/hsmkit)](https://www.npmjs.com/package/@billdaddy/hsmkit)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## Install
 
 ```bash
-npm install hsmkit
+npm install @billdaddy/hsmkit
 ```
 
 ## Quick start
 
 ```typescript
-import { createHSM } from "hsmkit";
+import { createHSM } from "@billdaddy/hsmkit";
 
 const machine = createHSM({
   initial: "idle",
